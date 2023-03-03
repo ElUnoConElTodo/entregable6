@@ -1,0 +1,19 @@
+.notification{
+    background-color: var(--primary);
+    color: white;
+    padding: 5px 10px;
+    width: max-content;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    place-content: center;
+    position: absolute;
+    right: -100%;
+    transition: 2000ms ease;
+}
+.notification.active{
+    right: 10px;
+}
+.notification__icon{
+    font-size: 30px;
+}

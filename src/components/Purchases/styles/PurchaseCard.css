@@ -1,0 +1,19 @@
+
+.purchaseCard{
+    border: 3px solid var(--gray);
+    border-radius: 10px;
+    max-width: 200px;
+    width: max-content;
+    max-height: 400px;
+}
+
+.purchaseCard__header{
+    border-bottom: 1px solid var(--gray);
+    padding: 20px;
+    height: 300px;
+    overflow: hidden;
+}
+.purchaseCard__img{
+    width: 100%;
+    height: 100%;
+}

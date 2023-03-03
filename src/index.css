@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;1,600&family=Yantramanav:wght@300;400;500&display=swap');
+
+:root {
+    --primary: #e70000;
+    --light-gray: #a2a2a2;
+    --gray: #707070;
+    --dark-gray: #353535;
+    --text-gray: #898989;
+}
+body{
+    margin: 0;
+}
+html{
+    box-sizing: border-box;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+*, *::after, *::before{
+    box-sizing: inherit;
+}
+
+img{
+    max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;    
+}
+p{
+    margin: 0;
+}
